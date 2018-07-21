@@ -22,7 +22,7 @@ exports.run = async(music, message, args, color,  queue) => {
     message.channel.send({embed: new Discord.RichEmbed()
                     .setAuthor(message.author.tag,message.author.avatarURL)
                     .setDescription(`The player has been stopped.`)
-.setColor("#ec0000")
+.setColor("#ff8f2f")
                    })
     return undefined; 
 
